@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="signup-style.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+  <title>AnalogSea -- Sign Up</title>
+</head>
+<body>
+  <img src="logo.png" alt="" class="logo">
+  <form action="/signup/" method="post">
+    <h1>Sign Up</h1>
+    <label for="email">Email</label>
+    <input type="email" name="email" value="" placeholder="foo@bar.com" required />
+    <label for="password">Password</label>
+    <input type="password" name="password" value="" placeholder="1234passw0rd" required />
+    <button type="submit" name="button">Sign Up</button>
+    <div class="forgot-pass"><a href="/forgot-password/new">Forgot password?</a></div>
+  </form>
+  <div class="login">Already have an account? <a href="/login">Log in</a></div>
+</body>
+</html>
