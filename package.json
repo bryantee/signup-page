@@ -1,0 +1,26 @@
+{
+  "name": "analogsea-signup-form",
+  "version": "1.0.0",
+  "description": "Mock sign up form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryantee/signup-page.git"
+  },
+  "keywords": [
+    "signup",
+    "clean"
+  ],
+  "author": "Bryan S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryantee/signup-page/issues"
+  },
+  "homepage": "https://github.com/bryantee/signup-page#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
